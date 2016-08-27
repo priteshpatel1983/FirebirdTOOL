@@ -1,0 +1,9 @@
+F:\pos\FirebirdTool\bin\Debug\FirebirdTool.exe.config
+F:\pos\FirebirdTool\bin\Debug\FirebirdTool.exe
+F:\pos\FirebirdTool\bin\Debug\FirebirdTool.pdb
+F:\pos\FirebirdTool\obj\x86\Debug\FirebirdTool.frmFirebirdTool.resources
+F:\pos\FirebirdTool\obj\x86\Debug\FirebirdTool.Properties.Resources.resources
+F:\pos\FirebirdTool\obj\x86\Debug\FirebirdTool.exe
+F:\pos\FirebirdTool\obj\x86\Debug\FirebirdTool.pdb
+F:\pos\FirebirdTool\obj\x86\Debug\FirebirdTool.csprojResolveAssemblyReference.cache
+F:\pos\FirebirdTool\obj\x86\Debug\FirebirdTool.csproj.GenerateResource.Cache
