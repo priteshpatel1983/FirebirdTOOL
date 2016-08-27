@@ -11,6 +11,7 @@ namespace FirebirdTool
 {
     class POSDataLib
     {
+        #region Set
         public DataSet ExecuteDataset(string Conn, string Squery)
         {
             DataSet ds = new DataSet();
@@ -25,11 +26,13 @@ namespace FirebirdTool
                 return ds;
             }
         }
+        #endregion Set
+
         public DataTable ExecuteDatTable(string Conn, string Squery)
         {
             DataTable dt = new DataTable();
             try
-            {
+            {//foe Dataset
                 DataSet ds = new DataSet();
 
                 ds = SqlHelper.ExecuteDataset(Conn, CommandType.Text, Squery);
@@ -51,7 +54,7 @@ namespace FirebirdTool
             int iID = 0;
             try
             {
-             
+             //for Retiom
                 DataSet ds = new DataSet();
                 FbParameter[] objParams = new FbParameter[1];
                 objParams[0] = new FbParameter(vfield, SqlDbType.Int);
