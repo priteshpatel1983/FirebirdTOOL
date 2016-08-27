@@ -16,7 +16,7 @@ namespace FirebirdTool
             DataSet ds = new DataSet();
             try
             {
-               
+               //for Datahelper
                 ds = SqlHelper.ExecuteDataset(Conn, CommandType.Text, Squery);
                 return ds;
             }
